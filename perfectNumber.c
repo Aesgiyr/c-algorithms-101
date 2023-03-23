@@ -11,7 +11,7 @@ int main(int argc, const char * argv[]) {
     long long num=0;
     long long sum=0;
     printf("Enter a number to check perfect: ");
-    scanf("%lld",&num);
+    scanf("%lld",&num); // 8589869056 = 12 seconds
     for(long long a =0; a<num; a+=1){
         if(num%a==0){
             printf("Divisors: %lld\n",a);
