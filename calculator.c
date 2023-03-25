@@ -66,7 +66,7 @@ int main(int argc, const char * argv[]) {
             break;
         }
         else{
-            printf("Hatalı tuşlama tekrar deneriniz\n");
+            printf("Please enter valid value\n");
             continue;
         }
     }
